@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+body{
+    background-color: #FAF9F6;
+
+
+}
+@font-face {
+    font-family: headerFont;
+    src: url(../fontes/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: allFont;
+    src: url(../fontes/Roboto/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: cardFont;
+    src: url(../fontes/Mont/Mont-Book.otf);
+}
+
+.header-container{
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    position: flex;
+    max-width: 100%;
+    padding: 0px 20px 0 20px;
+    margin: auto;
+    font-family: headerFont;
+    box-shadow: 0 0 10px 0 black;
+    
+}
+
+img{
+    width:auto;
+    height:auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.menuHeader-left{
+    justify-self: left;
+    padding-top: 33px;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.left-text{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 21px;
+}
+
+.menuHeader-right{
+    justify-content: right;
+    padding-top: 33px;
+    text-align: right;
+}
+
+.right-text, .getStarted{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 21px;
+}
+
+.getStarted{
+    background-color:#1EA358;
+    border-radius: 5px;
+    color: white;
+}   
+
+.textoPersuasivo{
+    font-family: allFont;
+    text-align: center;
+    color:rgb(20, 20, 20);
+    font-weight: bold;
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+.priceCards{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    margin-top: 50px;
+    font-family: cardFont;
+    text-decoration: none;    
+    height: 450px;
+    gap: 20px;
+
+}
+cardTitle {
+    font-weight: bold;
+    font-size: 60px;
+}
+.value{
+    font-weight: bold;
+    font-size: 80px;
+}
+.cardOne{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+
+}
+
+.cardTwo{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+
+}
+
+.cardThree{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+
+}
+
+.cardFour{
+    background-color: white;
+    border-radius: 10px;
+    border: solid 3px #1EA358;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+
+}
+ul{
+    list-style: none;
+    text-align: left;
+    padding: 30px 40px 20px 40px;
+    
+}
+ul li:before {
+    content: '✓';
+}
+li{
+    color: gray;
+
+}
+cardFooter{
+    text-decoration: none;
+}
+
+.buttonOne, .buttonTwo, .buttonThree, .buttonFour{
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+.buttonOne {
+    background-color: white;
+    border: solid 1px black;
+    color: black;
+    padding: 5px 20px 5px 20px;
+       
+
+}
+
+.buttonTwo{
+    background-color:cornflowerblue;
+    padding: 5px 20px 5px 20px;   
+
+}
+
+.buttonThree{
+    background-color: #100474;
+    padding: 5px 20px 5px 20px;   
+}
+
+.buttonFour{
+    background-color: #1EA358;
+    padding: 5px 20px 5px 20px;   
+}
+
+.titleTwo{
+    color: cornflowerblue;
+}
+
+.titleThree{
+    color: #100474;
+
+}
+
+.titleFour{
+    color: #1EA358;
+
+}
